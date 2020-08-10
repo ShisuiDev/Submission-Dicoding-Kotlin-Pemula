@@ -5,15 +5,15 @@ files:
   visible: true
   placeholders:
   - offset: 17
-    length: 29
+    length: 9
     placeholder_text: println()
     initial_state:
       length: 9
       offset: 17
     initialized_from_dependency: false
     possible_answer: println("Kotlin is Awesome!")
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
   text: |-
     fun main() {
         println()
@@ -24,5 +24,5 @@ files:
   text: |
     Kotlin is Awesome!
   learner_created: false
-status: Solved
+status: Unchecked
 record: -1
