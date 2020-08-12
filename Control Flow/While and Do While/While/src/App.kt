@@ -6,4 +6,13 @@ fun main() {
         println("Hello, World!")
         counter++
     }
+/*
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+*/
 }

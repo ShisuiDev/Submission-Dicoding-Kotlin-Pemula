@@ -1,27 +1,31 @@
 /**
- * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+ * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+ *    - Untuk melakukan improvisasi kode
+ *    - Mengikuti perintah yang ada
+ *
  * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
  *
  */
+
 class Cat(private val name: String) {
     // TODO 1
+
     var sleep: Boolean = false
 
-        get() {
+    get() {
         println("Fungsi getter dipanggil")
-            return field
-        }
+        return field
+    }
 
-        set(value) {
+    set(value) {
         println("Fungsi setter dipanggil")
-            field = value
-        }
-
+        field = value
+    }
 
     fun toSleep() {
         if (sleep == true){
             println("$name, sleep!")
-        } else {
+        }else {
             println("$name, let's play!")
         }
     }

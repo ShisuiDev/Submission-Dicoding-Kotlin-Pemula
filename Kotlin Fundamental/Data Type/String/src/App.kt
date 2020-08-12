@@ -4,4 +4,5 @@ fun main() {
     val firstChar = text[0]
 
     print("First character of $text is $firstChar")
+//    First character of Kotlin is K
 }

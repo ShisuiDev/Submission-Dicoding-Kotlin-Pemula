@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: println("Kotlin is Awesome!")
     selected: false
-    status: Unchecked
+    status: Solved
   text: |-
     fun main() {
         println()
@@ -24,5 +24,8 @@ files:
   text: |
     Kotlin is Awesome!
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 04 Aug 2020 15:57:46 UTC
 record: -1

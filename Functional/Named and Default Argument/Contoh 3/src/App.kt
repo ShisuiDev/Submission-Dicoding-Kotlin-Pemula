@@ -2,6 +2,7 @@
 fun main() {
     val fullName = getFullName()
     print(fullName)
+//    Kotlin is awesome
 }
 
 fun getFullName(

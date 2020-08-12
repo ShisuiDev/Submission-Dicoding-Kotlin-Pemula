@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 233
-    length: 55
+  - offset: 310
+    length: 94
     placeholder_text: |-
       fun sum(valueA: Int, valueB: Int): Int {
           return 0
       }
     initial_state:
       length: 55
-      offset: 211
+      offset: 310
     initialized_from_dependency: false
     possible_answer: |-
       suspend fun sum(valueA: Int, valueB: Int): Int {
@@ -20,15 +20,15 @@ files:
       }
     selected: true
     status: Solved
-  - offset: 300
-    length: 60
+  - offset: 416
+    length: 99
     placeholder_text: |-
       fun multiple(valueA: Int, valueB: Int): Int {
           return 0
       }
     initial_state:
       length: 60
-      offset: 278
+      offset: 377
     initialized_from_dependency: false
     possible_answer: |-
       suspend fun multiple(valueA: Int, valueB: Int): Int {
@@ -37,26 +37,30 @@ files:
       }
     selected: true
     status: Solved
-  - offset: 531
-    length: 9
+  - offset: 686
+    length: 125
     placeholder_text: println()
     initial_state:
       length: 9
-      offset: 509
+      offset: 608
     initialized_from_dependency: false
     possible_answer: |-
       println("""
               Result sum: ${resultSum.await()}
               Result multiple: ${resultMultiple.await()}
           """.trimIndent())
-    selected: false
+    selected: true
     status: Solved
   text: |-
     /**
-     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+     *    - Untuk melakukan improvisasi kode
+     *    - Mengikuti perintah yang ada
+     *
      * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
      *
      */
+
     import kotlinx.coroutines.*
 
     // TODO 1

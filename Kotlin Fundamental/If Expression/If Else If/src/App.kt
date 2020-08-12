@@ -12,4 +12,5 @@ fun main() {
     }
 
     print(office)
+//    Wait a minute, office will be open
 }

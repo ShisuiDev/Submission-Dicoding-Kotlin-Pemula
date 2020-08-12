@@ -3,42 +3,46 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 281
-    length: 29
+  - offset: 380
+    length: 19
     placeholder_text: if (false) continue
     initial_state:
       length: 19
-      offset: 281
+      offset: 380
     initialized_from_dependency: false
     possible_answer: if (number % 2 == 0) continue
-    selected: true
+    selected: false
     status: Solved
-  - offset: 338
-    length: 22
-    placeholder_text: if (false) continue
+  - offset: 488
+    length: 16
+    placeholder_text: if (false) break
     initial_state:
-      length: 19
-      offset: 328
+      length: 16
+      offset: 427
     initialized_from_dependency: false
     possible_answer: if (number > 20) break
-    selected: true
+    selected: false
     status: Solved
-  - offset: 388
-    length: 35
+  - offset: 594
+    length: 13
     placeholder_text: val result =0
     initial_state:
       length: 13
-      offset: 375
+      offset: 471
     initialized_from_dependency: false
     possible_answer: val result = number * (number + 10)
-    selected: true
+    selected: false
     status: Solved
   text: |-
     /**
-     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+     *    - Untuk melakukan improvisasi kode
+     *    - Mengikuti perintah yang ada
+     *
      * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
      *
      */
+
     fun main() {
         val listNumber = 1.rangeTo(100)
 
@@ -47,7 +51,7 @@ files:
             if (false) continue
 
             // TODO 2
-            if (false) continue
+            if (false) break
 
             // TODO 3
             val result =0
@@ -68,4 +72,7 @@ files:
     range result is 375
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 04 Aug 2020 16:03:30 UTC
 record: -1

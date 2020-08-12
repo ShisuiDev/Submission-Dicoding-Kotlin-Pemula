@@ -6,4 +6,5 @@ fun main() {
         is String -> println("the value has a String type")
         else -> println("undefined")
     }
+    // the value has a long type
 }

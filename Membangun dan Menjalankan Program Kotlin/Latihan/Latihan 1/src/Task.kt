@@ -1,3 +1,4 @@
 fun main() {
-    println()
+    println("Kotlin is Awesome!")
+//    mencetak tulisan kotlin is awesome
 }

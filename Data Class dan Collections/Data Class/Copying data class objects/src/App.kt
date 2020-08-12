@@ -7,4 +7,6 @@ fun main(){
     val dataUser4 = dataUser.copy()
 
     println(dataUser4)
+
+//    datauser(nrohmen, 17)
 }

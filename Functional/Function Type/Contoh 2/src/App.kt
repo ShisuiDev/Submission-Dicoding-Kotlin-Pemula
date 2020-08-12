@@ -8,6 +8,6 @@ fun main() {
     val sumResult = sum.invoke(10, 10)
     val multiplyResult = multiply.invoke(20, 20)
 
-    println(sumResult)
-    println(multiplyResult)
+    println(sumResult) // 20
+    println(multiplyResult) // 400
 }

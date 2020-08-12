@@ -7,4 +7,5 @@ fun main(){
     val age = dataUser.component2()
 
     println("My name is $name, I am $age years old")
+//    my name is nrohmen, I am 17 years old
 }

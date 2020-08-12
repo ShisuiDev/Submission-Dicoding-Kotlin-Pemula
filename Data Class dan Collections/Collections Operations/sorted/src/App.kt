@@ -4,6 +4,6 @@ fun main() {
     val ascendingSort = kotlinChar.sorted()
     val descendingSort = kotlinChar.sortedDescending()
 
-    println(ascendingSort)
-    println(descendingSort)
+    println(ascendingSort) // i k l n o t
+    println(descendingSort) // t o n l k i
 }

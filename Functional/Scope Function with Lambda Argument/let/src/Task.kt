@@ -8,4 +8,6 @@ fun main() {
         val text = "message is null"
         println(text)
     }
+
+//    Message is null
 }

@@ -5,5 +5,6 @@ fun main() {
         val length = it.length * 2
         val text = "text length $length"
         println(text)
+        // no output
     }
 }

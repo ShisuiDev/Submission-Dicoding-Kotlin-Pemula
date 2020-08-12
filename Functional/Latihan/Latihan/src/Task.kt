@@ -1,8 +1,12 @@
 /**
- * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+ * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+ *    - Untuk melakukan improvisasi kode
+ *    - Mengikuti perintah yang ada
+ *
  * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
  *
  */
+
 fun main() {
     val kotlin = "Kotlin".getFirstAndLast()
     val dicoding = "Dicoding".getFirstAndLast()
@@ -19,9 +23,9 @@ fun main() {
 }
 
 // TODO\
-fun String.getFirstAndLast(): Map<String, Char>{
+fun String.getFirstAndLast(): Map<String, Char> {
     return mapOf(
-            "first" to this.first(),
+            "first" to this.first(), //menjadikan nilai "first" menjadi this.first
             "last" to this.last()
     )
 }

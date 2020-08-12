@@ -2,7 +2,7 @@
 fun main() {
     val colors: Array<Color> = Color.values()
     colors.forEach { color ->
-        println(color)
+        println(color) // Red, Green, Blue
     }
 }
 

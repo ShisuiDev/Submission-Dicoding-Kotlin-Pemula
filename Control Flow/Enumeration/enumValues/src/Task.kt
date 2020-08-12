@@ -4,9 +4,14 @@ fun main() {
     colors.forEach {color ->
         println(color)
     }
+    /*
+    Red
+    Green
+    Blue*/
 
     val color: Color = enumValueOf("RED")
     println("Color is $color")
+    // Color is RED
 }
 
 enum class Color(val value: Int) {

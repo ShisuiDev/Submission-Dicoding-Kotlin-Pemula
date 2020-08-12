@@ -5,4 +5,5 @@ fun main() {
     }
 
     println(message.toString())
+    // Hello Kotlin!
 }

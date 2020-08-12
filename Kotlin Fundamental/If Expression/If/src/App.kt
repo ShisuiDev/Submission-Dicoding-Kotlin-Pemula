@@ -5,4 +5,6 @@ fun main() {
     if (now > officeOpen) {
         println("office already open")
     }
+
+//    Office already open
 }

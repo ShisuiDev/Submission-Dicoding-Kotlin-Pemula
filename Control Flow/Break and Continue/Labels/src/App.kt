@@ -8,4 +8,13 @@ fun main() {
             if ( j > 5) break@loop
         }
     }
+    /*
+    Outside Loop
+    Inside Loop
+    Inside Loop
+    Inside Loop
+    Inside Loop
+    Inside Loop
+    Inside Loop
+    */
 }

@@ -4,9 +4,9 @@ fun main() {
     val colorGreen = Color.GREEN
     val colorBlue = Color.BLUE
 
-    println(colorRed)
-    println(colorGreen)
-    println(colorBlue)
+    println(colorRed) //Red
+    println(colorGreen) //Green
+    println(colorBlue) //Blue
 }
 
 enum class Color(val value: Int) {

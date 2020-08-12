@@ -7,5 +7,7 @@ fun main(){
     val dataUser = DataUser("nrohmen", 17)
 
     println(user)
+    // User@4554617c
     println(dataUser)
+    // DataUser(name=nrohmen, age=17)
 }

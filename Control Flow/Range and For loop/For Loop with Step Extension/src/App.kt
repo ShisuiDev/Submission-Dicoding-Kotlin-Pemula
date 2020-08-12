@@ -5,4 +5,9 @@ fun main() {
     for (i in ranges ){
         println("value is $i!")
     }
+    /*
+    * value is 1!
+    * value is 4!
+    * value is 7!
+    * value is 10!*/
 }

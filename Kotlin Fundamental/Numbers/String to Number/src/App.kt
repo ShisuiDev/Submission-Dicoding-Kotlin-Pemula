@@ -3,4 +3,5 @@ fun main() {
     val intNumber = 3
 
     print(intNumber + stringNumber.toInt())
+    //26
 }

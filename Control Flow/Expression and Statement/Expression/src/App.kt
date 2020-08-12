@@ -5,4 +5,5 @@ fun main() {
     val office = if (now > openOffice) "Office already open" else "office close"
 
     println(office)
+//    Office already open
 }

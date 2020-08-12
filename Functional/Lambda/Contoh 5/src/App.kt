@@ -7,6 +7,7 @@ fun main() {
     }
 
     println(message)
+    // Hello from lambda
 }
 
 fun buildString(action: StringBuilder.() -> Unit): String {

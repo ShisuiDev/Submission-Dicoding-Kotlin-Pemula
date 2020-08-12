@@ -2,11 +2,13 @@
 fun main() {
     val officeOpen = 7
     val now = 10
-    val isOpen = now > officeOpen
+    val isOpen = now > officeOpen //true
 
-    if (!isOpen) {
+    if (!isOpen) { //false
         print("Office is closed")
-    } else {
+    } else { //jadi masuk kesini
         print("Office is open")
     }
+
+//    Office is open
 }

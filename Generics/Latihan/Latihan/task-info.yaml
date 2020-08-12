@@ -3,26 +3,26 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 282
+  - offset: 381
     length: 35
     placeholder_text: println()
     initial_state:
       length: 9
-      offset: 282
+      offset: 381
     initialized_from_dependency: false
     possible_answer: |-
       println("""
               String result: $stringResult
               Int result: $intResult
           """.trimIndent())
-    selected: true
+    selected: false
     status: Solved
-  - offset: 369
-    length: 102
+  - offset: 468
+    length: 103
     placeholder_text: return 0
     initial_state:
       length: 8
-      offset: 343
+      offset: 442
     initialized_from_dependency: false
     possible_answer: |-
       return when (args) {
@@ -34,10 +34,14 @@ files:
     status: Solved
   text: |-
     /**
-     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+     *    - Untuk melakukan improvisasi kode
+     *    - Mengikuti perintah yang ada
+     *
      * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
      *
      */
+
     fun main() {
         val stringResult = getResult("Kotlin")
         val intResult = getResult(100)

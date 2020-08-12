@@ -3,6 +3,7 @@ fun main() {
     val color: Color = Color.GREEN
 
     print("Position GREEN is ${color.ordinal}")
+    // Position GREEN is 1
 }
 
 enum class Color(val value: Int) {

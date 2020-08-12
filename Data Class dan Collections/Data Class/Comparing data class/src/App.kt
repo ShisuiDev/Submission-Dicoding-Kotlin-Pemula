@@ -5,7 +5,7 @@ fun main(){
     val dataUser2 = DataUser("nrohmen", 17)
     val dataUser3 = DataUser("dimas", 24)
 
-    println(dataUser.equals(dataUser2))
-    println(dataUser.equals(dataUser3))
+    println(dataUser.equals(dataUser2)) //true
+    println(dataUser.equals(dataUser3)) //false
 
 }

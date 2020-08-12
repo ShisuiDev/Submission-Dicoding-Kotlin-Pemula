@@ -8,4 +8,5 @@ fun factorial(n: Int): Int {
     } else {
         n * factorial(n - 1)
     }
+//    Factorial 10 is: 3628800
 }

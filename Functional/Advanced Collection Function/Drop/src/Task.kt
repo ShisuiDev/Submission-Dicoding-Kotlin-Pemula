@@ -3,4 +3,5 @@ fun main() {
     val drop = number.dropLast(3)
 
     println(drop)
+//    1 2 3
 }

@@ -4,4 +4,8 @@ fun main() {
     for (char in text){
         print("$char ")
     }
+
+    /*
+    K o t l i n
+    */
 }

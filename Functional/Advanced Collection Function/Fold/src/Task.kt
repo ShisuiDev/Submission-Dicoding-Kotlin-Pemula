@@ -8,4 +8,5 @@ fun main() {
     }
 
     println("Fold result: $fold")
+//    Fold result 16
 }

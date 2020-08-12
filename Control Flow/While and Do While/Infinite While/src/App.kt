@@ -5,4 +5,5 @@ fun main() {
         value++
         print(value)
     } while (value <= 'Z')
+//    hasilnya : BCDEFGHIJKLMNOPQRSTUVWXYZ[
 }

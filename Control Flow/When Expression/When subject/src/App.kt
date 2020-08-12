@@ -9,6 +9,7 @@ fun main() {
     }
 
     println(registerNumber)
+    // hasilnya nilai random  * 100 atau 50
 }
 
 fun getRegisterNumber() = Random.nextInt(100)

@@ -6,4 +6,5 @@ fun main() {
         "replace text from $from to $to"
     }
     println("result : $result")
+    // result : replace text from Hello to Kotlin
 }

@@ -2,8 +2,10 @@
 fun main() {
     val user = setUser("Alfian", 19)
     println(user)
+//    Your name is Alfian and you 19 years old
 
     printUser("Alfian")
+//   Your name is Alfian
 }
 
 fun setUser(name: String, age: Int) = "Your name is $name, and you $age years old"

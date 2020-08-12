@@ -5,6 +5,7 @@ fun main() {
     val value2 = 10
 
     sum(value1, value2)
+//    20
 }
 
 fun sum(value1: Int, value2: Int) = value1 + value2

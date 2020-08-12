@@ -1,5 +1,6 @@
 // main function
 fun main() {
     val rangeInt = 1..10
-    print(rangeInt.step)
+    print(rangeInt.step) // untuk melihat jarak stepnya
+    //    hasilnya 1
 }

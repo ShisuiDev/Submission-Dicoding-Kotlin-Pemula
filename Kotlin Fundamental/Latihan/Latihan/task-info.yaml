@@ -3,12 +3,12 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 542
-    length: 46
+  - offset: 684
+    length: 185
     placeholder_text: val result = 0
     initial_state:
       length: 14
-      offset: 542
+      offset: 641
     initialized_from_dependency: false
     possible_answer: |-
       val valueCNotNull = if (valueC == null){
@@ -24,10 +24,14 @@ files:
     status: Solved
   text: |-
     /**
-     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+     * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+     *    - Untuk melakukan improvisasi kode
+     *    - Mengikuti perintah yang ada
+     *
      * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
      *
      */
+
     fun main() {
         val valueA = 101
         val valueB = 52
@@ -55,4 +59,7 @@ files:
     ResultB is 103
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 10 Aug 2020 07:44:39 UTC
 record: -1

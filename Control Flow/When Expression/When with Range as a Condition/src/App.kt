@@ -8,4 +8,5 @@ fun main() {
         !in ranges -> println("value is outside the range")
         else -> println("value undefined")
     }
+    // value is in the range
 }

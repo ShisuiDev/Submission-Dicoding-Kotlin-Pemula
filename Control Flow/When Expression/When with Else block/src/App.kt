@@ -7,5 +7,8 @@ fun main() {
         7 -> println("value is 7")
         8 -> println("value is 8")
         else -> println("value cannot be reached")
-    }
-}// type your solution here
+    } //value cannot be reached
+} /*
+when (value == 7) {
+println(value is 7) else println ("value cannot be reached)
+*/

@@ -7,6 +7,7 @@ fun main() {
         Color.BLUE -> print("Color is Blue")
         Color.GREEN -> print("Color is Green")
     }
+    // Color is Green
 }
 
 enum class Color(val value: Int) {

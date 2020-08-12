@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 17
-    length: 31
+    length: 9
     placeholder_text: println()
     initial_state:
       length: 9
@@ -16,7 +16,7 @@ files:
               Kotlin,
               is Awesome!
           """.trimIndent())
-    selected: true
+    selected: false
     status: Solved
   text: |-
     fun main() {
@@ -30,4 +30,7 @@ files:
     is Awesome!
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 04 Aug 2020 15:57:58 UTC
 record: -1

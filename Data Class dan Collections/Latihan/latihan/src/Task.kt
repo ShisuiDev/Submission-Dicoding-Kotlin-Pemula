@@ -1,8 +1,12 @@
 /**
- * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+ * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+ *    - Untuk melakukan improvisasi kode
+ *    - Mengikuti perintah yang ada
+ *
  * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
  *
  */
+
 fun main() {
 
     // TODO 1
@@ -12,11 +16,12 @@ fun main() {
             "maxTank" to "10Ltr"
     )
 
-    // TODO 2
+    // mengambil tiap valuedari vehicle
     val type = vehicle.getValue("type")
     val maxSpeed = vehicle.getValue("maxSpeed")
     val maxTank = vehicle.getValue("maxTank")
 
-    // TODO 3
-    println("Vehicle\nType: $type\nMaximal Speed: $maxSpeed\nMaximal Tank: $maxTank")
+    // menampilkan dengan escaped string
+    println("Vehicle\nType: $type\nMaximal Speed: $maxSpeed\nMaximal Tank: $maxTank" )
+
 }

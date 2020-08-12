@@ -2,6 +2,7 @@
 fun main() {
     val color: Color = Color.valueOf("RED")
     print("Color is $color")
+    // Color is RED
 }
 
 enum class Color(val value: Int) {

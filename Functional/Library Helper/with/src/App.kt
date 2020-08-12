@@ -7,4 +7,5 @@ fun main() {
     }
 
     println(result)
+    // first character is H and last character !
 }

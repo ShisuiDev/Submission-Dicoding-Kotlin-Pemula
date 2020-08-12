@@ -13,4 +13,7 @@ files:
     fun Int.isEvenNumber() = this % 2 == 0
   learner_created: false
 status: Solved
+feedback:
+  time: Tue, 11 Aug 2020 01:15:12 UTC
 record: -1
+post_submission_on_open: true

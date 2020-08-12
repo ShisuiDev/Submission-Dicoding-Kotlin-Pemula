@@ -7,4 +7,5 @@ fun main() {
     val anyList = listOf('a', "Kotlin", 3, true, User())
 
     println(anyList[3])
+    // true
 }

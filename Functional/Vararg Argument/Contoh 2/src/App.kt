@@ -1,6 +1,7 @@
 // main function
 fun main() {
     sets(10, 10, name = "Kotlin")
+    // Kotlin
 }
 
 fun sets(vararg number: Int, name: String): Int {

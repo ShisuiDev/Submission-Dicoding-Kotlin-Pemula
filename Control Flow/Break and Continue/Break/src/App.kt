@@ -6,4 +6,5 @@ fun main() {
         if (i == null) break
         print(i)
     }
+//    1 2 3
 }

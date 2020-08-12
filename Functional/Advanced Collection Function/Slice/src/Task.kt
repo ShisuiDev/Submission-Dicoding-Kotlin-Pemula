@@ -4,4 +4,6 @@ fun main() {
     val slice = total.slice(index)
 
     println(slice)
+//    jadi mengambil indek berdasarkan listOf
+//  3 4 6 9
 }

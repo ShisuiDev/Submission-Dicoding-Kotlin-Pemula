@@ -1,8 +1,12 @@
 /**
- * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah kode yang sudah ada.
+ * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
+ *    - Untuk melakukan improvisasi kode
+ *    - Mengikuti perintah yang ada
+ *
  * Cukup tambahkan kode berdasarkan perintah yang sudah ditentukan.
  *
  */
+
 fun main() {
     val valueA = 101
     val valueB = 52
@@ -18,7 +22,15 @@ fun main() {
 }
 
 fun calculateResult(valueA: Int, valueB: Int, valueC: Int?): Int {
-    // TODO
-    val result = valueA + (valueB - (valueC?: 50))
-    return result
+    // melakukan pengecekan null value terhadap valueC
+    val valueCNotNull = if (valueC == null){
+        50
+    } else {
+        valueC
+    }
+
+    val valueA = valueA
+    val valueB = valueB
+    val result = valueA + (valueB - valueCNotNull)
+    return result //melemparkan nilai result ke fungsi utama
 }

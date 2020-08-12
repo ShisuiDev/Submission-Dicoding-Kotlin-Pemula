@@ -4,7 +4,9 @@ fun main() {
 
     rangeInt.forEach {
         print("$it ")
+        // 1 3 5 7 9
     }
 
     println(rangeInt.step)
+    // 1 3 5 7 9 2 (2 => stepnya)
 }

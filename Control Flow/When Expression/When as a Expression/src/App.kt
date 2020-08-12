@@ -9,4 +9,5 @@ fun main() {
     }
 
     println(stringOfValue)
+    //value is 7
 }

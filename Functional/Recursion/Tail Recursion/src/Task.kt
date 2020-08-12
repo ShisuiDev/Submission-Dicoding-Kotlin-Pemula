@@ -9,4 +9,5 @@ tailrec fun factorial(n: Int, result: Int = 1): Int {
     } else {
         factorial(n - 1, newResult)
     }
+//    Factorial 10 is: 3628800
 }

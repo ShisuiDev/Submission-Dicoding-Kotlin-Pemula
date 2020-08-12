@@ -5,4 +5,9 @@ fun main() {
     ranges.forEach { value ->
         println("value is $value!")
     }
+    /*  value is 1
+        value is 4
+        value is 7
+        value is 10
+    */
 }

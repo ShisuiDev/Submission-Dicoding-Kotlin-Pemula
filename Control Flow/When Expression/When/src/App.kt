@@ -7,4 +7,5 @@ fun main() {
         7 -> println("value is 7")
         8 -> println("value is 8")
     }
+//    value is 7
 }

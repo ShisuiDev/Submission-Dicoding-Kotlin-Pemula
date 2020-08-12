@@ -5,4 +5,5 @@ fun main(){
     val (name, age) = dataUser
 
     println("My name is $name, I am $age years old")
+    //My name is nrohmen, I am 17 years old
 }

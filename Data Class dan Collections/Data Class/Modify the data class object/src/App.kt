@@ -7,6 +7,6 @@ fun main(){
     val dataUser4 = dataUser.copy()
     val dataUser5 = dataUser.copy(age = 18)
 
-    println(dataUser4)
-    println(dataUser5)
+    println(dataUser4) // datauser(nrohmen, 17)
+    println(dataUser5) // datauser(nrohmen, 18)
 }
