@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 310
-    length: 94
+    length: 113
     placeholder_text: |-
       fun sum(valueA: Int, valueB: Int): Int {
           return 0
@@ -20,8 +20,8 @@ files:
       }
     selected: true
     status: Solved
-  - offset: 416
-    length: 99
+  - offset: 435
+    length: 118
     placeholder_text: |-
       fun multiple(valueA: Int, valueB: Int): Int {
           return 0
@@ -37,8 +37,8 @@ files:
       }
     selected: true
     status: Solved
-  - offset: 686
-    length: 125
+  - offset: 742
+    length: 173
     placeholder_text: println()
     initial_state:
       length: 9
@@ -92,4 +92,7 @@ files:
     Result multiple: 400
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 12 Aug 2020 13:56:28 UTC
 record: -1

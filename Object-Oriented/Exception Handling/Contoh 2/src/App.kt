@@ -8,6 +8,7 @@ fun main() {
     } catch (e: Exception) {
         someMustNotNullValue = "Nilai String Null"
     } finally {
-        println(someMustNotNullValue)
+        println(someMustNotNullValue) //nilai final di lempar kesini
     }
+//    Nilai String Null
 }

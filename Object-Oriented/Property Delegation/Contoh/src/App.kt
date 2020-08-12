@@ -31,12 +31,21 @@ fun main() {
     val animal = Animal()
     animal.name = "Dicoding Miaw"
     println("Nama Hewan: ${animal.name}")
+    /* Nilai name dari: Default akan berubah menjadi Dicoding Miaw
+    Fungsi ini sama seperti getter untuk properti name pada class Animal@1d56ce6a
+    Nama Hewan: Dicoding Miaw */
 
     val person = Person()
     person.name = "Dimas"
     println("Nama Orang: ${person.name}")
+    /*  Nilai name dari: Default akan berubah menjadi Dimas
+    Fungsi ini sama seperti getter untuk properti name pada class Person@5197848c
+    Nama Orang: Dimas */
 
     val hero = Hero()
     hero.name = "Gatotkaca"
     println("Nama Pahlawan: ${hero.name}")
+    /*  Nilai name dari: Default akan berubah menjadi Gatotkaca
+    Fungsi ini sama seperti getter untuk properti name pada class Hero@17f052a3
+    Nama Pahlawan: Gatotkaca*/
 }

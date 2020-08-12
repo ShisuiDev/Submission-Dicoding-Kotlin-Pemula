@@ -10,4 +10,5 @@ fun main() {
         someMustNotNullValue = "Nilai String Null"
         println(someMustNotNullValue)
     }
+//    Nilai string null
 }

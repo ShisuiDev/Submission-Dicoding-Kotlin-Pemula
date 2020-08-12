@@ -11,19 +11,20 @@ import kotlinx.coroutines.*
 
 // TODO 1
 suspend fun sum(valueA: Int, valueB: Int): Int {
-    delay(3000L)
+    delay(3000L) // didelay 3 detik
     return valueA + valueB
 }
 
 // TODO 2
 suspend fun multiple(valueA: Int, valueB: Int): Int {
-    delay(2000L)
+    delay(2000L) // didelay 2 detik
     return valueA * valueB
 }
 
 fun main() = runBlocking {
 
     println("Counting...")
+//    counting...
 
     val resultSum = async { sum(10, 10) }
     val resultMultiple = async { multiple(20, 20) }
@@ -33,4 +34,6 @@ fun main() = runBlocking {
         Result sum: ${resultSum.await()}
         Result multiple: ${resultMultiple.await()}
     """.trimIndent())
+//    Result sum: 20
+//    Result multiple: 400
 }

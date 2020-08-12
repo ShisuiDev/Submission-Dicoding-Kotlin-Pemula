@@ -35,8 +35,12 @@ fun main() {
 
     // TODO 2
     val gippy = Cat("Gippy")
-
+//  fungsi getter terpanggil
     gippy.toSleep()
+//    Gippy, let's play
+//    fungsi setter terpanggil
     gippy.sleep = true
+//    fungsi getter terpanggil
     gippy.toSleep()
+//    Gippy, sleep!
 }

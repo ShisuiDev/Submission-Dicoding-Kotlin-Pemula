@@ -18,4 +18,5 @@ fun main() {
             else -> println(someIntValue)
         }
     }
+//    Catch block NullPointerException terpanggil!
 }

@@ -6,4 +6,5 @@ val Animal.getAnimalInfo : String
 fun main() {
     val dicodingCat = Animal("Dicoding Miaw", 5.0, 2, true)
     println(dicodingCat.getAnimalInfo)
+//    Nama: Dicoding Miaw, Berat: 5.0, Umur: 2 Mamalia: true
 }

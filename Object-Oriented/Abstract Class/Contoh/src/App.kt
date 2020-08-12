@@ -11,4 +11,5 @@ abstract class Animal(var name: String, var weight: Double, var age: Int, var is
 
 fun main() {
     println("Abstract Class")
+//    Abstract Class
 }

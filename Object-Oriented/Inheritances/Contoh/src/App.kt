@@ -29,6 +29,9 @@ fun main(){
     val dicodingCat = Cat("Dicoding Miaw", 3.2, 2, true, "Brown", 4)
 
     dicodingCat.playWithHuman()
+//    Dicoding Miaw bermain bersama Manusia!
     dicodingCat.eat()
+//    Dicoding Miaw sedang memakan ikan!
     dicodingCat.sleep()
+//    Dicoding Miaw sedang tidur di bantal!
 }

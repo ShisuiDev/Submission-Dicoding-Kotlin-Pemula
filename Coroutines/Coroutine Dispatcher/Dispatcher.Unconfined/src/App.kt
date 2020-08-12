@@ -9,4 +9,8 @@ fun main() = runBlocking<Unit> {
         delay(1000)
         println("end in ${Thread.currentThread().name}")
     }.start()
+
+//    Starting in main
+//    Resuming in kotlinx.coroutines.DefaultExecutor
+//    end in kotlinx.coroutines.DefaultExecutor
 }

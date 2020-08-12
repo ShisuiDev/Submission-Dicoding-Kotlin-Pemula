@@ -6,4 +6,5 @@ fun main() {
     dicodingCat.weight
     dicodingCat.age
     dicodingCat.isMammal
+//    no output
 }

@@ -8,4 +8,7 @@ fun main() = runBlocking {
 
     job.join()
     println("Other task")
+    /*
+    * Start new job
+    * Other task */
 }

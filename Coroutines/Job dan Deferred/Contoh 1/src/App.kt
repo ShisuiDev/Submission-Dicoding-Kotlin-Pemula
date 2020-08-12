@@ -7,6 +7,7 @@ fun main() = runBlocking {
         val time = async {
             delay(10000)
             println("sweat today!")
+//            sweat today
         }
     }
 
