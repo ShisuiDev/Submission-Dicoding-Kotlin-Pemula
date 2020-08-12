@@ -6,5 +6,7 @@ fun main() {
     val someDouble = someOtherString.toDouble()
 
     println(someInt is Int)
+//    true
     println(someDouble is Double)
+//    true
 }

@@ -19,7 +19,9 @@ class Animal(name: String, weight: Double, age: Int) {
 fun main() {
     val dicodingCat = Animal("Dicoding Miaw", 2.5, 2, true)
     println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
+//  Nama: Dicoding Miaw, Berat: 2.5, Umur: 2, mamalia: true
 
     val dicodingBird = Animal("Dicoding tweet", 0.5, 1)
     println("Nama: ${dicodingBird.name}, Berat: ${dicodingBird.weight}, Umur: ${dicodingBird.age}, mamalia: ${dicodingBird.isMammal}")
+//  Nama: Dicoding tweet, Berat: 0.5, Umur: 1, mamalia: false
 }

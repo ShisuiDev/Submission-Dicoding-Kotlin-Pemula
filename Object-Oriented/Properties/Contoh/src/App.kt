@@ -14,6 +14,11 @@ class Animal{
 fun main(){
     val dicodingCat = Animal()
     println("Nama: ${dicodingCat.name}" )
+//    fungsi getter terpanggil
+//    Nama: Dicoding Miaw
     dicodingCat.name = "Goose"
+//    fungsi setter terpanggil
     println("Nama: ${dicodingCat.name}")
+//    fungsi getter terpanggil
+//    Nama : Goose
 }

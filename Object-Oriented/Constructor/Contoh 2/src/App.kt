@@ -4,7 +4,7 @@ class Animal(pName: String, pWeight: Double, pAge: Int, pIsMammal: Boolean){
     val age: Int
     val isMammal: Boolean
 
-    init {
+    init { //menjadi blok code untuk peraturan constructor
         weight = if(pWeight < 0) 0.1 else pWeight
         age = if(pAge < 0) 0 else pAge
         name = pName
@@ -15,4 +15,5 @@ class Animal(pName: String, pWeight: Double, pAge: Int, pIsMammal: Boolean){
 fun main() {
     val dicodingCat = Animal("Dicoding Miaw", 4.2, 2, true)
     println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
+//    Nama: Dicoding Miaw, Berat: 4.2, Umur: 2, mamalia: true
 }
